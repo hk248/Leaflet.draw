@@ -26,6 +26,7 @@
   },
   "main": "dist/leaflet.draw.js",
   "style": "dist/leaflet.draw.css",
+  "private": true,
   "directories": {
     "doc": "docs/",
     "example": "docs/example",
@@ -94,5 +95,8 @@
       "key-spacing": 0,
       "consistent-return": 0
     }
+  },
+  "dependencies": {
+    "phantomjs": "^2.1.1"
   }
 }
